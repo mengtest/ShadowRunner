@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21212496}
   - 61: {fileID: 6121010}
   - 114: {fileID: 11410520}
+  - 114: {fileID: 11445606}
   m_Layer: 0
   m_Name: grass
   m_TagString: Untagged
@@ -55,6 +56,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &11445606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495839e742ffc1d4bb4c8aa2286c5066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 0}
+  endPoint: {fileID: 0}
 --- !u!212 &21212496
 SpriteRenderer:
   m_ObjectHideFlags: 1
